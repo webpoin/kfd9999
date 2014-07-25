@@ -1,0 +1,160 @@
+@charset "utf-8";
+/***
+@Author:     webpoin
+@Email:      1357113262@qq.com
+***/
+
+
+.channel_ad{float: left;width: 100%; height: 70px;clear:both;background: #04638b;margin-top: 20px;color: #fff; }
+.channel_ad img{width: 100%;height: 100%;}
+
+/*每日金评*/
+.daily{position: relative;overflow: hidden; margin:10px auto 0; width:640px;  padding-left: 360px; height: 386px;background: #ededed;}
+.daily_pic{ position: absolute;left: 0;top: 0;}
+.daily_tle{position: relative;margin-left: -46px; font-size: 30px;text-indent: 35px; line-height: 62px;color: #444;background: url(../images/daily_tle.png) no-repeat left center;}
+.daily_note{position: relative; margin:0 25px 15px -23px;color:#cfd2d4;font-size: 14px;line-height: 24px;  height: 172px;padding: 0 25px 0 85px; background: url(../images/daily_bkg.png) no-repeat left top #273d4b;}
+.daily_note h2{font-size: 22px;line-height: 60px;color: #fff;}
+.daily_note>a{position: absolute;right: -7px;bottom: 0; }
+.daily li{font-size: 14px;line-height: 30px; text-align: right;margin-right: 25px;border-bottom: 1px dashed #c6c6c6;}
+.daily li a{float: left;}
+.daily li a:hover{color:#bd0008; }
+.daily ul i{float: left;margin-right: 5px; font-style: normal;font-family: '宋体';}
+.daily_more{float: right;margin-right: 25px;color: #bd0008;line-height: 40px; text-align: right;}
+.daily_more:hover{text-decoration: underline;}
+
+/*每周金评*/
+.weekly{border-bottom:1px dashed #c0c0c0;margin-top: 20px;height: 404px; }
+.weekly_pic{display: block;padding: 10px; text-align: center;background: #ececec;}
+.weekly_pic img{width: 680px;height: 195px;}
+.weekly_art{font-size: 14px;line-height: 22px;}
+.weekly h2{font-size: 16px;line-height: 40px;margin-top: 10px;color: #444;}
+.weekly h2 a:hover{color: #bd0008;}
+.weekly_infor{display: block;margin:10px 0;}
+
+
+/*策略*/
+.tactics{height: 204px; margin-top: 20px;font-size: 14px;line-height: 22px;border-bottom:1px dashed #c0c0c0;padding-bottom: 10px; }
+.tactics h2{position: relative; font-size: 16px;height: 40px;border-bottom: 2px solid #bd0008; line-height: 40px;padding-left: 5px;color: #bd0008;}
+.tactics h2 a{position: absolute;top: 0;right: 0;font-size: 12px;color: #444;}
+.tactics h2 a:hover{color: #bd0008;}
+.tactics h3 {font-size: 15px;line-height: 32px;margin-top: 8px;}
+.tactics h3 a:hover{color: #bd0008;}
+.tactics >a{margin-top: 10px;}
+
+/*订阅我们*/
+.subscribe{margin-top: 17px;background: #ececec;}
+.subscribe h2{width: 80px;text-align: center; font-size: 16px;line-height: 27px;height: 27px; color: #fff;background: #696969;display: inline-block; }
+.subscribe form{height: 120px; border-top:1px solid #696969;padding:25px 16px 0;font-size: 14px;line-height: 24px;color: #444; background: url(../images/subscribe_bkg.png) no-repeat right top;  }
+.subscribe label{display: block;margin-top: 5px; padding-left: 40px; height: 25px;background: url(../images/subscribe_mail.png) no-repeat left center;}
+.subscribe input[type="text"]{width: 190px; line-height: 16px;height: 16px;padding:3px;border:1px solid #ddd;color: #a3a3a3;  }
+.subscribe input[type="submit"]{width: 70px;height: 24px;text-align: center;font-size: 14px;padding: 0;border: none;cursor: pointer; background: #ec6f6f;color: #fff; margin:13px 0 0 41px ;}
+
+/*文章分类*/
+.artclass{width: 324px;float: left;margin-top: 20px;font-size: 14px;line-height: 20px;margin-right: 14px;margin-bottom: 30px;}
+.artclass h2{position: relative; font-size: 16px;height: 40px;border-bottom: 2px solid #bd0008; line-height: 40px;padding-left: 5px;color: #bd0008;}
+.artclass h2 a{position: absolute;top: 0;right: 0;font-size: 12px;color: #444;}
+.artclass h2 a:hover{color: #bd0008;}
+.artclass_pic{display: block;margin-top: 13px; height: 98px;overflow: hidden;}
+.artclass h3 {padding: 5px 0; font-size: 15px;line-height: 28px;margin-top: 8px;}
+.artclass h3 a{white-space:normal;color: #444; }
+.artclass .btn_infor{margin:10px 0; }
+.artclass ul{padding:7px 0 ;  border-top:1px dashed #c6c6c6;font-size: 14px;line-height: 24px; text-align: right; }
+.artclass li a{float: left;}
+.artclass li a:hover{color:#bd0008; }
+.artclass ul i{float: left; clear: left; margin-right: 5px; font-style: normal;font-family: '宋体';}
+
+
+/****************即时资讯*********************/
+.headlines{margin-top: 30px;overflow: hidden;margin-right: -35px; }
+.headlines h1{width: 1000px; height: 88px;line-height: 87px;font-size: 30px;background: #f5f5f5; height: 87px;color: #bd0008;}
+.headlines h1 strong{display: inline-block;vertical-align: top; font-size: 50px;width: 268px;margin-right: 20px; padding-right: 60px;color: #fff; line-height: 87px;text-align: center;background: url(../images/headlines_bkg.png) no-repeat right top #696969;}
+.headlines h2{position: relative; float: left;margin-top: 15px;background: #696969;border-right: 8px solid #fdac00;margin-right: 28px;text-indent: 10px;color: #fff;font-size: 16px; width: 478px;height: 43px;line-height: 43px;}
+.headlines h2 span{position: absolute;right:5px;top: 0;font-family: '宋体';}
+
+
+/*文章列表*/
+.artlist{width: 344px;margin-top: 20px;font-size: 14px;line-height: 20px;border-bottom: 1px dashed #efefef;}
+.artlist h2{position: relative; font-size: 16px;height: 40px;border-bottom: 2px solid #bd0008; line-height: 40px;padding-left: 5px;color: #bd0008;}
+.artlist h2 a{position: absolute;top: 0;right: 0;font-size: 12px;color: #444;}
+.artlist h2 a:hover{color: #bd0008;}
+.artlist h3 {padding: 5px 0; font-size: 15px;line-height: 28px;margin-top: 11px;}
+.artlist h3 a{white-space:normal;color: #444; }
+.artlist h3 a:hover{color: #bd0008; }
+.artlist .btn_infor{margin:15px 0; }
+.artlist_pic{float: left; width: 163px;height: 130px;overflow: hidden; margin:10px 10px 10px 0; }
+.artlist ul{padding:7px 0 ; font-size: 14px;line-height: 24px; text-align: right; }
+.artlist li a{float: left;}
+.artlist li a:hover{color:#bd0008; }
+.artlist ul i{float: left; clear: left; margin-right: 5px; font-style: normal;font-family: '宋体';}
+
+
+
+/*财经日历*/
+.economic{position: relative;float: left;width: 100%;margin-top: 20px;}
+.economic h2{font-size: 16px;line-height: 36px;color: #bd0008;background: #fdac00;text-indent: 5px;}
+.economic form{position: absolute;right: 10px;top: 0;height: 36px;line-height: 36px;color: #004444;font-size: 14px;font-weight: bold;}
+.economic input{ width: 80px;padding: 2px 3px;height: 16px;line-height: 16px; border:1px solid #e1e3e3;background: url(../images/datepicker_icon.png) no-repeat right center #fff; }
+.economic table{width: 100%;margin-top: 10px;line-height: 32px;font-size: 14px;}
+.economic th{font-weight: bold;text-align: left;text-indent: 10px;background: #f4f3f3;}
+.economic td{padding:0 10px; }
+
+
+/*市场行情*/
+.market{margin-top: 20px;float: left;width: 100%; }
+.market h2{position: relative; font-size: 16px;height: 40px;border-bottom: 2px solid #bd0008; line-height: 40px;padding-left: 5px;color: #bd0008;}
+.market h3{font-size: 14px;line-height: 32px;color: #444;}
+.market_val{float: left}
+.market_val dt{display: inline-block;}
+.market_val dd{display: inline-block;}
+.market table{width: 100%;text-align: center;background: #fdf8f8;line-height: 30px;margin-top: 3px;}
+.market thead th{background: #fff;border-bottom:1px solid #ddd; }
+.market table span{display: block;background: #fff;text-align: left;}
+.market table b{margin:0 3px;font-weight: normal; }
+.market table em{display: inline-block;height: 14px;vertical-align: middle;margin:0 5px;  width: 340px;background: url(../images/bgimg4.gif) repeat-x 0 -159px;}
+.market table i{display: inline-block;height: 100%;vertical-align: top;border-right: 1px solid #fff; background: url(../images/bgimg4.gif) repeat-x 0 -140px;}
+.market thead span{text-align: right;height: 14px;line-height: 14px;}
+.market thead i,.market thead em{width: 20px;text-indent: 23px;margin-right: 35px;font-style: normal;white-space:nowrap;font-weight: normal; }
+
+
+/************side************/
+/*行情走势*/
+.trend{margin-top: 20px;}
+.trend h2{position: relative; font-size: 16px;height: 40px;border-bottom: 2px solid #bd0008; line-height: 40px;padding-left: 5px;}
+.trend_val{padding:5px 12px ;color: #fff; font-size: 14px; background: url(../images/trend_bkg.png) no-repeat right top #696969;}
+.trend_val strong{display: block;font-size: 16px;line-height: 22px; color: #fff;font-weight: normal;}
+.trend_val i{position: relative;display: inline-block;width: 20px;height: 20px;overflow: hidden;}
+.trend_val i img{position: absolute;left: 0;top: 0;}
+.trend_val i.count_val_down img{margin-left: -20px;}
+.trend_val em{display: block;width: 100%;border-top: 1px dashed #fff;margin:5px 0;  height: 0;}
+
+
+/*注册开户通道 */
+.aisle{margin-top: 20px;}
+.aisle h2{position: relative; font-size: 16px;height: 40px;border-bottom: 2px solid #bd0008; line-height: 40px;padding-left: 5px;}
+.aisle_main{background: #f4f4f4;overflow: hidden;}
+.aisle_main a{display: block; position: relative;height: 52px;line-height: 52px;;text-indent: 90px;font-size: 16px;color: #444;border-bottom: 1px solid #fff;}
+.aisle_main a img{position: absolute; top: 50%;left: 30px;margin-top:-17px; }
+.aisle_main a img.hot{display: none;}
+.aisle_main a:hover{background: #bd0008;color: #fff;}
+.aisle_main a:hover img.nor{display: none;}
+.aisle_main a:hover img.hot{display: block;}
+
+
+/*贵金属库存*/
+.stock{background: #f5f5f5;margin-top: 20px;}
+.stock h2{position: relative; font-size: 18px;height: 40px;line-height: 40px;padding-left: 5px;color: #444;}
+.stock h3{float: left;width: 50%; font-size: 14px; line-height: 28px;color: #633116;text-align: center;cursor: pointer;}
+.stock table{font-size: 14px;width: 100%;height: 100%;}
+.stock ul{position: relative;height: 229px;border-bottom: 1px solid #fdac00; padding:0 8px;margin-bottom: 18px; }
+.stock cite{display: none; position: absolute;left: 8px;bottom: 0;right: 8px; height: 200px;border-top: 1px solid #696969;}
+.stock .active cite{display: block;}
+.stock .active h3{background: #696969;color: #fff;}
+
+
+
+
+
+
+
+/*私有*/
+/*.realtime_news ul{padding-top: 10px; padding-bottom: 30px;}*/
