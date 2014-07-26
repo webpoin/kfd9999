@@ -98,7 +98,7 @@ p a{white-space: normal;}
 
 
 /*页脚*/
-.foot{border-top: 1px solid #d5777b;background: #eee;height: 370px;padding-bottom: 20px;}
+.foot{border-top: 1px solid #d5777b;background: #eee;height: 370px;padding-bottom: 80px;}
 .foot_guarantee{position: absolute;left: 0;top: -6px;}
 .foot_links{float: right;height: 224px; white-space:nowrap;margin-bottom: 18px; }
 .foot_links li{display: inline-block;vertical-align: top; width: 160px;margin-left: 30px; white-space: normal;font-size: 14px;line-height: 24px;}
@@ -115,7 +115,10 @@ p a{white-space: normal;}
 .foot_friend i:active{background: #bd0008; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;-o-user-select: none;user-select: none;  }
 
 
-
+.foot_fixed{position: fixed;bottom: 0;left: 0;width: 100%; background: rgba(0,0,0,0.5);text-align: right;}
+.foot_fixed a{margin-left: 20px;display: inline-block;}
+.foot_fixed a:hover{background: rgba(0,0,0,0.2);}
+.foot_fixed img{height: 30px;padding:15px 10px; }
 
 /**************** 侧边******************/
 /*新闻*/
